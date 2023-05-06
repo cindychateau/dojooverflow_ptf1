@@ -89,5 +89,15 @@ public class Etiqueta {
 	protected void onUpdate() {
 		this.updatedAt = new Date();
 	}
+
+	public List<Pregunta> getPreguntas() {
+		return preguntas;
+	}
+
+	public void setPreguntas(List<Pregunta> preguntas) {
+		this.preguntas = preguntas;
+	}
+	
+	
 	
 }

@@ -101,5 +101,13 @@ public class Pregunta {
 	public void setRespuestas(List<Respuesta> respuestas) {
 		this.respuestas = respuestas;
 	}
+
+	public List<Etiqueta> getEtiquetas() {
+		return etiquetas;
+	}
+
+	public void setEtiquetas(List<Etiqueta> etiquetas) {
+		this.etiquetas = etiquetas;
+	}
 	
 }
